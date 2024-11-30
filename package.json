@@ -9,11 +9,14 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "4.0",
+    "tailwindcss": "^3.4.15",
     "vite": "^4.3.9"
   },
   "dependencies": {
     "@react-three/drei": "^9.77.4",
     "@react-three/fiber": "^8.13.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
     "r3f-perf": "^7.1.2",
     "react": "18.2",
     "react-dom": "18.2",

@@ -50,7 +50,7 @@ export default function Experience()
         />
         <ambientLight intensity={ 0.5 } />
 
-        <primitive object={ model.scene } scale={ 1 } ref={ modelRef } />
+        <primitive object={ model.scene } scale={ 1 } ref={ modelRef } position={[-4, -1, 0]} />
 
         {[...Array(10)].map((_, i) => (
             <Cloud
@@ -61,7 +61,9 @@ export default function Experience()
                     Math.random() * 20,
                     Math.random() * 100 - 50
                 ]}
-                scale={Math.random() * 2}
+                scale={[
+                    Math.random() * 4
+                ]}
             />
         ))}
     </>
