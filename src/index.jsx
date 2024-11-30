@@ -31,7 +31,7 @@ root.render(
                         <h1 className="text-center text-slate-900 text-5xl font-semibold">
                         Lockheed Martin F-22 Raptor
                         </h1>
-                        <p className="text-2xl text-slate-700 text-center">
+                        <p className="text-2xl text-slate-700 text-center md:w-[50%] mx-auto">
                         The F-22 Raptor is a fifth-generation, stealth air superiority fighter known for its unmatched agility, advanced avionics, and dominant combat capabilities.
                         </p>
                     </div>
